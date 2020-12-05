@@ -1,0 +1,23 @@
+﻿<Window x:Class="OATControlWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OATControlWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnChoose" Content="Choose" HorizontalAlignment="Left" Margin="650,345,0,0" VerticalAlignment="Top" Width="75" Click="btnChoose_Click"/>
+        <Label x:Name="lblTelescope" Content="Label" HorizontalAlignment="Left" Margin="532,339,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCommand" HorizontalAlignment="Left" Height="23" Margin="529,245,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="2.257,0.592"/>
+        <Button x:Name="txtSend" Content="Send" HorizontalAlignment="Left" Margin="697,253,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.145,0.671" Click="txtSend_Click"/>
+        <TextBlock x:Name="tbLog" HorizontalAlignment="Left" Margin="27,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="368" Width="454"/>
+        <GroupBox Header="OpenAstroTracker" HorizontalAlignment="Left" Height="74" Margin="589,49,0,0" VerticalAlignment="Top" Width="153">
+            <StackPanel Margin="10" Orientation="Horizontal">
+                <Button x:Name="btnConnect" Content="Connect" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="btnOpen_Click"/>
+            </StackPanel>
+        </GroupBox>
+        <TextBox x:Name="txtComPort" HorizontalAlignment="Left" Height="23" Margin="599,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

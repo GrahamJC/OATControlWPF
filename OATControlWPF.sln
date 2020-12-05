@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OATControlWPF", "OATControlWPF.csproj", "{D9DD8F04-EB63-4D98-8661-1BBEBF4F46BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9DD8F04-EB63-4D98-8661-1BBEBF4F46BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9DD8F04-EB63-4D98-8661-1BBEBF4F46BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9DD8F04-EB63-4D98-8661-1BBEBF4F46BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9DD8F04-EB63-4D98-8661-1BBEBF4F46BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3181B65D-784A-4407-93E5-47D1ADD5B7DA}
+	EndGlobalSection
+EndGlobal
